@@ -18,8 +18,9 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($dosen as $dsn)
+          
               <tr>
+        
                 <th scope="row">{{$dsn->ID}}</th>
                 <td>{{$dsn->Nama}}</td>
                 <td>{{$dsn->Email}}</td>
@@ -30,7 +31,7 @@
                     <button type="button" class="btn btn-danger">Hapus</button>
                 </td>
               </tr>
-              @endforeach
+              
             </tbody>
           </table>
     </div>

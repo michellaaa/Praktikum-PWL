@@ -13,10 +13,10 @@ class DosenController extends Controller
     public function index()
     {
         $dosen = Dosen::all();
-        
         return view('dosen',[
             'dosen' => $dosen
         ]);
+        
     }
 
     /**
